@@ -9,6 +9,11 @@ a {
 li {
   list-style: none;
 }
+img {
+  display: block;
+  max-width: 100%;
+  border-radius: 5px;
+}
 
 body {
   font-family: "Volkorn", Georgia, serif;
@@ -72,6 +77,28 @@ body {
 .sidenav li a:hover {
   background: #b07dfb;
 }
+
+/* --- ANUNCIOS ---  */
+.anuncios {
+  display: grid;
+  align-content: start;
+  background: #fafbfc;
+  padding: 30px;
+  gap: 30px;
+}
+.anuncio-item img {
+}
+
+/* --- FOOTER ---  */
+.footer {
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+}
+.footer p {
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
 /* --- AREAS ---  */
 .header {
   grid-area: header;
